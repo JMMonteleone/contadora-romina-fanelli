@@ -1,0 +1,43 @@
+Diseña una web-app profesional, moderna y responsiva con enfoque mobile first para una contadora pública llamada Romina Fanelli. La web debe transmitir confianza, cercanía y profesionalismo, orientada a autónomos, pymes y emprendedores.
+
+📌 Secciones clave:
+
+Inicio: breve presentación de Romina, con una foto profesional y un mensaje de bienvenida cálido.
+
+Servicios: lista clara de servicios contables ofrecidos (liquidación de impuestos, sueldos, monotributo, balances, asesoramiento fiscal y financiero, etc.).
+
+Sobre mí: trayectoria académica y profesional de Romina Fanelli, con enfoque humano y cercano.
+
+Testimonios: opiniones reales de clientes satisfechos (3 a 5), con nombre, ocupación y una frase destacada.
+
+Turnos / Consultas: sistema simple para solicitar un turno o enviar una consulta (formulario + botón flotante de WhatsApp).
+
+Blog / Novedades (opcional): artículos breves con consejos útiles o actualizaciones impositivas.
+
+Contacto: datos completos (email, teléfono, dirección si aplica) e integración con redes sociales (LinkedIn, Instagram profesional).
+
+📱 Diseño Mobile First:
+
+Toda la experiencia debe estar optimizada primero para dispositivos móviles, con navegación sencilla, botones grandes y textos bien legibles.
+
+Luego debe adaptarse fluidamente a tablets y escritorio (diseño responsivo).
+
+Menú hamburguesa, formularios amigables, íconos claros y tiempos de carga rápidos.
+
+🎨 Estilo visual:
+
+Paleta de colores sobria y elegante (azules, grises, blanco, toques de dorado o rosa pálido si se desea algo más personalizado).
+
+Tipografía moderna y legible.
+
+Iconografía contable sutil, elegante y coherente.
+
+🔧 Extras sugeridos:
+
+Integración con calendario para turnos.
+
+Accesibilidad básica (textos alternativos, buena jerarquía visual).
+
+SEO básico para aparecer en Google al buscar "contadora Romina Fanelli" o servicios relacionados.
+
+🧠 El tono de la web debe ser profesional pero cercano, con enfoque en la resolución de problemas contables reales, pensado para personas que buscan atención personalizada.

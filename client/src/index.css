@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(210, 15%, 15%);
+  --muted: hsl(210, 15%, 92%);
+  --muted-foreground: hsl(210, 8%, 45%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(210, 15%, 15%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(210, 15%, 15%);
+  --border: hsl(210, 15%, 90%);
+  --input: hsl(210, 15%, 95%);
+  --primary: hsl(210, 100%, 20%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(210, 15%, 92%);
+  --secondary-foreground: hsl(210, 15%, 15%);
+  --accent: hsl(210, 15%, 92%);
+  --accent-foreground: hsl(210, 15%, 15%);
+  --destructive: hsl(0, 80%, 55%);
+  --destructive-foreground: hsl(60, 9%, 98%);
+  --ring: hsl(210, 100%, 20%);
+  --radius: 0.5rem;
+  --primary-blue: hsl(210, 100%, 20%);
+  --secondary-blue: hsl(210, 40%, 35%);
+  --light-blue: hsl(210, 25%, 96%);
+  --gold-accent: hsl(38, 70%, 50%);
+  --neutral-gray: hsl(210, 8%, 45%);
+  --dark-gray: hsl(210, 15%, 15%);
+}
+
+.dark {
+  --background: hsl(224, 71%, 4%);
+  --foreground: hsl(213, 31%, 91%);
+  --muted: hsl(223, 47%, 11%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --popover: hsl(224, 71%, 4%);
+  --popover-foreground: hsl(213, 31%, 91%);
+  --card: hsl(224, 71%, 4%);
+  --card-foreground: hsl(213, 31%, 91%);
+  --border: hsl(223, 47%, 11%);
+  --input: hsl(223, 47%, 11%);
+  --primary: hsl(217, 91%, 60%);
+  --primary-foreground: hsl(222, 84%, 5%);
+  --secondary: hsl(223, 47%, 11%);
+  --secondary-foreground: hsl(213, 31%, 91%);
+  --accent: hsl(223, 47%, 11%);
+  --accent-foreground: hsl(213, 31%, 91%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(213, 31%, 91%);
+  --ring: hsl(217, 91%, 60%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .primary-blue {
+    color: var(--primary-blue);
+  }
+  
+  .bg-primary-blue {
+    background-color: var(--primary-blue);
+  }
+  
+  .secondary-blue {
+    color: var(--secondary-blue);
+  }
+  
+  .bg-secondary-blue {
+    background-color: var(--secondary-blue);
+  }
+  
+  .light-blue {
+    color: var(--light-blue);
+  }
+  
+  .bg-light-blue {
+    background-color: var(--light-blue);
+  }
+  
+  .gold-accent {
+    color: var(--gold-accent);
+  }
+  
+  .bg-gold-accent {
+    background-color: var(--gold-accent);
+  }
+  
+  .neutral-gray {
+    color: var(--neutral-gray);
+  }
+  
+  .bg-neutral-gray {
+    background-color: var(--neutral-gray);
+  }
+  
+  .dark-gray {
+    color: var(--dark-gray);
+  }
+  
+  .bg-dark-gray {
+    background-color: var(--dark-gray);
+  }
+}
